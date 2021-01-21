@@ -1,0 +1,73 @@
+.howworktextile{
+    background: linear-gradient(106.35deg, #002046 0%, #033E84 98.04%);
+    min-height: 600px;
+display: flex;
+align-items: center;
+}
+.howworktextile_wrapper{
+    width: 1200px;
+    margin: 0 auto 0 auto ;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px 4px rgba(10,161,208,0.25);
+    border-radius: 14px;
+    max-width: 1200px;
+    min-height: 345px;
+    padding: 15px 80px;
+    display: flex;
+    align-items: center;
+}
+.howworktextile_title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 121.69%;
+    letter-spacing: 0.08em;
+    color: #002046;
+    margin: 0px 0px 10px 0px ;
+}
+.howworktextile_stick{
+    background-color: #0082FA;
+    border: 1px solid #0082FA;
+    width: 77px;
+}
+.howworktextile_text{
+    margin-top: 35px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 142.69%;
+    letter-spacing: 0.01em;
+    color: #3F3F3F;
+}
+
+
+@media(max-width:1380px){
+    .howworktextile_wrapper{
+        max-width:100%;
+         padding: 0 50px; 
+    }
+}
+@media(max-width:1000px){
+    .howworktextile_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .howworktextile_image{
+        position: relative;
+        width: 100%;
+    }
+    .howworktextile_image img{
+        max-width: 100%;
+        display: block;
+    }
+}
+@media(max-width:768px){
+    .howworktextile_wrapper{
+        max-width:100%;
+         padding: 0 15px; 
+    }
+    .howworktextile_title{
+        margin-top: 10px;
+    }
+   
+}

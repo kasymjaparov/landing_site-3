@@ -1,0 +1,71 @@
+.alcohol_cards{
+    margin: 55px 0px 55px 0px ;
+    width: 100%;
+}
+.alcohol_cards_wrapper{
+    width: 1200px;
+    margin: 0 auto 0 auto ;
+    display: flex;
+    justify-content: space-between;
+}
+.alcohol_cards_item{
+    width: 350px;
+}
+.alcohol_cards_item_image{
+    width: 350px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.alcohol_cards_item_image img{
+    border-radius: 15px;
+    max-width: 100%;
+    display: block;
+}
+.alcohol_cards_item_title{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 121.69%;
+    letter-spacing: 0.08em;
+    color: #002046;
+    margin: 10px 0px 10px 0px ;
+}
+.alcohol_cards_item_desc{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 161.2%;
+    letter-spacing: 0.01em;
+    color: #363636;
+}
+
+
+
+
+@media(max-width:1380px){
+    .alcohol_cards_wrapper{
+        max-width:100%;
+         padding: 0 50px; 
+    }
+}
+@media(max-width:1200px){
+    .alcohol_cards_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .alcohol_cards_item{
+     margin: 0px 0px 10px 0px ;
+    }
+}
+@media(max-width:768px){
+    .alcohol_cards_wrapper{
+        max-width:100%;
+         padding: 0 15px; 
+    }
+}
+@media(max-width:400px){
+    .alcohol_cards_item_image, .alcohol_cards_item{
+        width: 100%;
+    }
+}

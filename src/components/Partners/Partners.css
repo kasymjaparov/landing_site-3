@@ -1,0 +1,34 @@
+.partners{
+    margin-top: 20px;
+    z-index: 2;
+}
+.swiper_partners{
+    position: relative;
+    width: 130px;
+    z-index: 300;
+}
+.swiper_partners img{
+    max-width: 100%;
+    display: block;
+    cursor: pointer;
+}
+@media(max-width:1200px){
+    .swiper_partners{
+        width: 100px;
+    }
+}
+@media(max-width:1000px){
+    .swiper_partners{
+        width: 80px;
+    }
+}
+@media(max-width:750зч){
+    .swiper_partners{
+        width: 70px;
+    }
+}
+@media(max-width:400px){
+    .swiper_partners{
+        width: 120px;
+    } 
+}

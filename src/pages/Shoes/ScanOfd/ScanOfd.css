@@ -1,0 +1,110 @@
+.scanofd{
+    width: 100%;
+    margin-top: 50px;
+}
+.scanofd_wrapper{
+    width:1200px;
+    margin: 0 auto 0 auto ;
+}
+.scanofd_title{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 121.69%;
+    letter-spacing: 0.08em;
+    color: #002046;
+}
+.scanofd_about{
+    display: flex;
+    align-items: center;
+}
+.scanofd_about_stick{
+    width: 2px;
+    height: 57px;
+    background-color: #0082FA;
+    border: 1px solid #0082FA;
+}
+.scanofd_about_text{
+    max-width: 540px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 161.2%;
+    letter-spacing: 0.01em;
+    color: #363636;
+    margin-left: 15px;
+}
+.scanofd_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.scanofd_info_text_item_title{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120.19%;
+    letter-spacing: 0.01em;
+    color: #595959;
+    margin: 25px 0 5px 0;
+}
+.scanofd_info_text_item_stick{
+    background-color: #0082FA;
+    border: 1px solid #0082FA;
+    width: 19px;
+}
+.scanofd_info_text_item_text{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 161.2%;
+    letter-spacing: 0.01em;
+    color: #363636;
+    width: 360px;
+}
+ .scanofd_info_img{
+  margin-top: -70px;
+  position: relative;
+    width: 400px;
+}
+.scanofd_info_img img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+@media(max-width:1380px){
+    .scanofd_wrapper{
+        max-width:100%;
+         padding: 0 50px; 
+    }
+}
+@media(max-width:1040px){
+    .scanofd_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .scanofd_info_text_item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:768px){
+    .scanofd_wrapper{
+        max-width:100%;
+         padding: 0 15px; 
+    }
+}
+
+@media(max-width:400px){
+    .scanofd_info_img{
+          width: 100%;
+      }
+      .scanofd_info_text_item_text{
+          width: 100%;
+      }
+      .scanofd_info_text{
+          margin-bottom: 70px;
+      }
+}

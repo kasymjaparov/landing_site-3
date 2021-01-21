@@ -1,0 +1,73 @@
+.markirovkaAbout{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(81.36deg, rgba(0, 79, 198, 0.13) 5.4%, rgba(217, 232, 255, 0.15) 95.09%);
+padding: 30px 0;
+display: flex;align-items: center;
+}
+.markirovkaAbout_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: auto;
+    margin: auto auto auto auto ;
+    background: white;
+    border-radius: 15px;
+    padding: 70px 0;
+}
+.markirovkaAbout_info{
+    width: 470px;
+}
+.markirovkaAbout_info_title{
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.08em;
+    color: #002046;
+}
+.markirovkaAbout_info_desc{
+    font-size: 16px;
+    line-height: normal;
+    color: #000;
+    margin: 20px 0px 0px 0px ;
+}
+.markirovkaAbout_img{
+    width: 400px;
+    height: 280px;
+    background: url("./Rectangle 63.png");
+    border-radius: 8px;
+    margin: 0px 0px 20px 0px ;
+}
+.markirovkaAbout_btn{
+    margin-bottom: 20px;
+}
+@media(max-width:1380px){
+    .markirovkaAbout_wrapper{
+        max-width:100%;
+         padding: 70px 50px; 
+    }
+}
+@media(max-width:986px){
+    .markirovkaAbout_info{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .markirovkaAbout_btn{
+        padding: 10px;
+        margin: 20px 0px 20px 0px ;
+    }
+    .markirovkaAbout_wrapper{
+        border-radius: 0;
+    }
+}
+@media(max-width:768px){
+    .markirovkaAbout_wrapper{
+        max-width:100%;
+         padding: 0 15px; 
+    }
+    .markirovkaAbout_info_title{
+        margin: 20px 0px 0px 0px ;
+    }
+}

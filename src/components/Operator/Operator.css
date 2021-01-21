@@ -1,0 +1,14 @@
+.operator{
+    background: linear-gradient(106.35deg, #002046 0%, #033E84 98.04%);
+}
+.operator_img{
+    width: 400px;
+    height: 280px;
+    background: url("./Rectangle 14.png");
+    border-radius: 8px;
+    margin: 0px 0px 20px 0px ;
+}
+.operator_warning{
+    font-size: 15px;
+    margin: 10px 0px 10px 0px ;
+}

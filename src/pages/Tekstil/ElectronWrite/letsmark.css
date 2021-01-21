@@ -1,0 +1,82 @@
+.letsmark_wrapper{
+    width: 1200px;
+    margin: 0 auto 0 auto ;
+    display: flex;
+    align-items: center;
+}
+.letsmark_write{
+    background: #f1faff;    min-height: 415px;
+  display: flex;
+  align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.letsmark_info{
+    max-width: 500px;
+    margin-left: 25px;
+}
+.letsmark_info_title{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 120.19%;
+    letter-spacing: 0.01em;
+    color: #474747;
+}
+.letsmark_info_stick{
+    background-color: #0082FA;
+    border: 1px solid #0082FA;
+    width: 132px;
+}
+.letsmark_info_text{
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 161.2%;
+    letter-spacing: 0.01em;
+    color: #363636;
+}
+
+.letsmark_image{
+    position: relative;
+    width: 50%;
+    margin-right: 25px;
+}
+.letsmark_image img{
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+
+@media(max-width:1380px){
+    .letsmark_wrapper{
+        max-width:100%;
+         padding: 0 50px; 
+    }
+}
+
+@media(max-width:1100px){
+ .letsmark_wrapper{
+     display: flex;flex-direction: column;
+ }   
+ .letsmark_info{
+    margin-left: 0;
+}
+.letsmark_image{
+    width: 100%;
+    margin-right: 0;
+}
+.letsmark_info{
+    max-width: 100%;
+}
+.letsmark_info_title{
+    margin: 10px 0px 0px 0px ;
+}
+}
+
+
+@media(max-width:768px){
+    .letsmark_wrapper{
+        max-width:100%;
+         padding: 0 15px; 
+    }}
