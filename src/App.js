@@ -7,6 +7,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import Alcohol from './pages/Alcohol/Alcohol'
 import Tekstil from './pages/Tekstil/Tekstil'
 import Shoes from "./pages/Shoes/Tekstil"
+import Equipments from './pages/Equipments/Equipments'
 function App() {
 	return (
 		<BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
 			<Route path="/alcohol" component={Alcohol} exact />
 			<Route path="/tekstil" component={Tekstil} exact />
 			<Route path="/shoes" component={Shoes} exact />
+			<Route path="/equipments" component={Equipments} exact />
 			<Redirect to="/"/>
 			</Switch>
 			<Footer />

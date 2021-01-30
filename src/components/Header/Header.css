@@ -2,14 +2,14 @@ header{
     width: 100%;
     height: 60px;
     background: rgb(255, 255, 255);
-    position: sticky;
+    /* Если хотите фиксированно наверху 
+     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 3; */
     box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 16px 0px;
 }
 .header_wrapper{
     width:1200px;
-    /* padding: 0 50px; */
     margin: 0 auto 0 auto ;
     color: black;
     height: 100%;
@@ -59,6 +59,9 @@ header{
 }
 .nav_lang{
     margin: 0px 50px 0px 20px ;
+}
+.nav_link-active{
+  border-bottom: 1px solid #B7B7B7;
 }
 @media(max-width:1147px){
     .fa-phone-alt, .nav_lang{
