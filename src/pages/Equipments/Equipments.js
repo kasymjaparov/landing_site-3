@@ -8,9 +8,12 @@ import img8 from './9.png'
 import img9 from './10.png'
 import img10 from './11.png'
 import img11 from './12.png'
-import img12 from "./13.png"
+import img12 from './13.png'
 
 export default function Equipments() {
+	React.useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 	const staffs1 = [
 		{
 			title: 'Urovo DT50',
@@ -63,7 +66,6 @@ export default function Equipments() {
 			desc: `Предназначенная для ручной агрегации вторичных упаковок в короба.`,
 			image: img12
 		}
-		
 	]
 	return (
 		<div className='equipments'>

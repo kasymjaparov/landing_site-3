@@ -5,12 +5,13 @@ import video from './marking.mp4'
 import './News.css'
 
 export default function News() {
+	React.useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 	return (
 		<div className='news'>
 			<div className='news__content'>
-                <div className="news_title">
-                    Новости
-                </div>
+				<div className='news_title'>Новости</div>
 				<div className='news__item'>
 					<span className='news__date'>22.12.2020</span>
 					<p className='news__title'>
@@ -33,13 +34,10 @@ export default function News() {
 						Евразийского экономического союза в целом одобрили проект стратегии-2025 и поручили Евразийской
 						экономической комиссии его доработать. После представили для рассмотрения еще 36 предложений.
 					</span>
-					<div className="news_imag">
-						<img src={postreliz} alt='postreliz'  />
+					<div className='news_imag'>
+						<img src={postreliz} alt='postreliz' />
 					</div>
 					<div className='news__line news__line-2' />
-					{/* <a href='#' className='news__link'>
-						Источник: http://norma.kg/childs/news/index.html
-					</a> */}
 				</div>
 				<div className='news__item'>
 					<span className='news__date'>22.12.2020</span>

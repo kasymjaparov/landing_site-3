@@ -17,12 +17,12 @@ export default function ForMarkirovka() {
 				<div className='formarkirovka_title'>Все для маркировки</div>
 				<div className='formarkirovka_links'>
 					{links.map((item) => (
-						<a href={item.path} className='formarkirovka_links_item' key={item.title}>
+						<NavLink to={item.path} className='formarkirovka_links_item' key={item.title}>
 							<div className='formarkirovka_links_item_round'>
 								<i className='fas fa-chevron-right' />
 							</div>
 							<div className='formarkirovka_links_item_title'>{item.title}</div>
-						</a>
+						</NavLink>
 					))}
 				</div>
 			</div>

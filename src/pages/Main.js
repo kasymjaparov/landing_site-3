@@ -8,6 +8,9 @@ import ForMarkirovka from '../components/ForMarkirovka/ForMarkirovka'
 import Callback from '../components/Callback/Callback'
 
 export default function Main() {
+	React.useEffect(()=>{
+		window.scrollTo(0,0)
+			},[])
     return (
         <>
              <About />
