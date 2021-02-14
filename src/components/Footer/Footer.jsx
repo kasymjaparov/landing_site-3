@@ -4,6 +4,7 @@ import pdf from './license.pdf'
 
 export default function Footer() {
 	const links = [
+		{ href: 'https://api.whatsapp.com/send?phone=+996501588882', icons: 'fab fa-whatsapp' },
 		{ href: 'https://www.instagram.com/norma.kg/', icons: 'fab fa-instagram' },
 		{ href: 'https://www.youtube.com/channel/UCCV0dJ9NpQ2C1X9lLY8fspw', icons: 'fab fa-youtube' },
 		{ href: 'https://t.me/normakg', icons: 'fab fa-telegram-plane' }
@@ -37,27 +38,26 @@ export default function Footer() {
 
 					<div className='footer__column'>
 						<div className='footer__title'>Контакты</div>
-						<div style={{color:"white"}} className='footer__links'>О нас</div>
+						<div style={{ color: 'white' }} className='footer__links'>
+							О нас
+						</div>
 						<div className='footer__links'>
 							<div className='footer__link'>
-								Адрес: 720030, г.Бишкек <div style={{ marginTop: 7 }}>Баялинова 146</div>{' '}
+								Адрес: 720030, г.Бишкек, <div style={{ marginTop: 7 }}>улица Баялинова 146</div>{' '}
 							</div>
 
 							<div className='footer__link'>
-								Call-center:
 								<a target='_blank' rel='noopener noreferrer' href='tel:+996501588882'>
 									+996 501 588 882
-								</a>
+								</a>{' '}
+								- call-center
 							</div>
 
 							<div className='footer__link'>
-								<b>Call-center:</b>
 								<span>+996 708 700 700</span>
 							</div>
 							<div className='footer__link'>
-								{' '}
-								<b>Call-center:</b>
-								<span>+996 (312) 888-882</span>{' '}
+								<span>+996 312 888 882</span>{' '}
 							</div>
 							{links.map((item) => (
 								<a

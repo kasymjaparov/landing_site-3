@@ -43,8 +43,11 @@
 	text-align: left;
 	padding-bottom: 0px;
 	color: #999999;
+	transition: all 0.3s ease;
 }
-
+.footer__samoedno:hover{
+	color: white;
+}
 .footer__title {
 	font-style: normal;
 	font-weight: bold;
@@ -77,9 +80,7 @@
 	color: #ffffff;
 	margin-bottom: 15px;
 }
-.footer__link:nth-child(2) a {
-	margin-left: 5px;
-}
+
 .footer__link a {
 	color: white;
 	margin: 0px 0px 0px 0px;
@@ -89,9 +90,9 @@
 .footer__link .fa-whatsapp {
 	color: green;
 }
-.footer__link span {
+/* .footer__link span {
 	margin-left: 5px;
-}
+} */
 .footer__link b {
 	color: transparent;
 }
@@ -110,6 +111,9 @@
 	color: white;
 	margin-right: 10px;
 	font-size: 19px;
+}
+.footer_links_icons:hover{
+	color: white;
 }
 @media (max-width: 1380px) {
 	.container {

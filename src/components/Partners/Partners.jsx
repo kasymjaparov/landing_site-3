@@ -13,6 +13,9 @@ import partner7 from './partners/7.png'
 import partner8 from './partners/8.png'
 import partner9 from './partners/megacom.png'
 import partner10 from './partners/mtk.png'
+import partner11 from "./partners/tpp2.png"
+import partner12 from "./partners/mmc.jpg"
+
 export default function Partners() {
 	SwiperCore.use([Autoplay])
 	const partners = [
@@ -25,7 +28,8 @@ export default function Partners() {
 		{ src: partner7 },
 		{ src: partner8 },
 		{ src: partner9 },
-		{ src: partner10 }
+		{ src: partner10 },
+		{ src: partner12 }
 	]
 	let amount = 9
 	if (window.matchMedia('(max-width:500px)').matches) {
